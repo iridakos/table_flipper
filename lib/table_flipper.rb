@@ -3,6 +3,6 @@ class Exception
 
   define_method :to_s do
   	original_message = original_to_s.bind(self).call
-  	"(╯°□°）╯︵ ┻━┻: #{original_message}"
+  	"(╯°□°）╯︵ ┻━┻ : #{original_message}"
   end
 end

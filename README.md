@@ -1,22 +1,37 @@
 # Table flipper (╯°□°）╯︵ ┻━┻
 
-A useless plugin that prepends the table flipper on Exception messages.
+A useless gem that prepends the table flipper on Exception messages.
 
-### Gemfile:
+## Installation
 
-~~~~~ ruby
+Add this line to your application's Gemfile:
+
+```ruby
 gem 'table_flipper'
-~~~~~
+```
 
-### irb:
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install table_flipper
+
+Then try to break your code, ta da:
 
 ~~~~~ ruby
-require 'table_flipper'
+NoMethodError: (╯°□°）╯︵ ┻━┻ : undefined method `do_something' for nil:NilClass
 ~~~~~
 
-And your errors:
+![Screenshot](http://i.imgur.com/xRLGT50.png)
 
-~~~~~ ruby
-NoMethodError: (╯°□°）╯︵ ┻━┻: undefined method `do_something' for nil:NilClass
-~~~~~
+## Contributing
 
+1. Fork it ( https://github.com/iridakos/table_flipper/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+##### [**Lazarus Lazaridis**](http://www.arubystory.com)

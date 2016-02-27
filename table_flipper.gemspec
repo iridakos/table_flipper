@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'table_flipper'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2016-02-27'
   s.summary     = "(╯°□°）╯︵ ┻━┻"
   s.description = "A useless gem prepending (╯°□°）╯︵ ┻━┻ to exception messages"

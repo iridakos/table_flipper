@@ -10,7 +10,7 @@ class Exception
   original_to_s = instance_method(:to_s)
 
   define_method :to_s do
-  	original_message = original_to_s.bind(self).call
-  	"#{TABLE_FLIPS.sample} : #{original_message}"
+    original_message = original_to_s.bind(self).call
+    "#{TABLE_FLIPS.sample} : #{original_message}"
   end
 end

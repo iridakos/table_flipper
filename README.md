@@ -24,6 +24,9 @@ Then try to break your code, ta da:
 NoMethodError: (╯°□°）╯︵ ┻━┻ : undefined method `do_something' for nil:NilClass
 ~~~~~
 
+![Screenshot](http://i.imgur.com/x2RGyZS.jpg)
+
+
 ![Screenshot](http://i.imgur.com/xRLGT50.png)
 
 ## Contributing

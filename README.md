@@ -2,6 +2,8 @@
 
 A useless gem that prepends the table flipper on Exception messages.
 
+[![Gem Version](https://badge.fury.io/rb/table_flipper.svg)](https://badge.fury.io/rb/table_flipper)
+
 ## Installation
 
 Add this line to your application's Gemfile:
